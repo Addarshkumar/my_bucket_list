@@ -15,7 +15,6 @@ for (i=0;i<bucketList.length;i++){
     var li=document.createElement("li")
     li.innerHTML=bucketList[i]+ `<img onclick="remove(`+i+`)" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/tick-mark%5B1%5D.png" style="position:relative;left:100px; alt=""></span>`
     listcontainer.append(li)
-    Image
     li.style.width="250px"
     li.style.height="30px"    
     li.style.border="1px solid black"

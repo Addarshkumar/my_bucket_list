@@ -1,0 +1,76 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+.img{
+    background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png);
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+    
+#input-field{
+    height: 40px;
+    width: 400px;
+    border-radius: 25px;
+    border-color: rgb(0, 0, 0);
+    margin-top: 200px;
+    font-size: 15px;
+}
+.btn-submit{
+    height: 42px;
+    width: 70px;
+    border-radius: 25px;
+    position: relative;
+    right: 60px;
+    background-color: #F7BE3B;
+    border-style: double;
+    margin-top: 200px;
+    font-weight: 600;
+
+}
+.heading{
+    font-size: 40px;
+    position: relative;
+    top: 150px;right: 20px;
+}
+
+}
+.list-container{
+    text-align: center;
+
+}
+h2{
+    color: #13243E;
+    padding-top: 40px;
+    font-size: 30px;
+
+}
+.hint{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.btn-reset{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 650px;
+    margin-top: 50px;
+    background-color: #F7BE3B;
+    border-color: black;
+    font-size: medium;
+    font-weight:700;
+}
+.footer{
+    margin-left: 660px;
+    margin-top: 30px;
+    height: 80px;
+    font-weight: 500;
+}
+.btn-submit:hover{
+    background-color: #a37509;
+}
+.btn-reset:hover{
+    background-color:#a37509;
+}
+
